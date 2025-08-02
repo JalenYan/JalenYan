@@ -10,6 +10,10 @@ rails new [project_name] --css=tailwind --database=postgresql
 
 #### Turbo Frame Debug
 
+```erb
+<body class="<%= class_names('container', debug: params[:debug].present?) %>">
+```
+
 ```css
 .debug {
   turbo-frame {
