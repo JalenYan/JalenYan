@@ -21,6 +21,15 @@
 rails new [project_name] --css=tailwind --database=postgresql
 ```
 
+```css
+@layer base {
+  button:not(:disabled),
+  [role="button"]:not(:disabled) {
+    cursor: pointer;
+  }
+}
+```
+
 <!--
 **JalenYan/JalenYan** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 
