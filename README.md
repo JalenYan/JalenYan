@@ -1,5 +1,15 @@
 ## Hi there 👋
 
+### 🛠️ Commands
+
+```bash
+rails new [project_name] --css=tailwind --database=postgresql
+```
+
+### 🎨 CSS Snippets
+
+#### Turbo Frame Debug
+
 ```css
 .debug {
   turbo-frame {
@@ -17,9 +27,7 @@
 }
 ```
 
-```bash
-rails new [project_name] --css=tailwind --database=postgresql
-```
+#### Button Cursor Fix
 
 ```css
 @layer base {
